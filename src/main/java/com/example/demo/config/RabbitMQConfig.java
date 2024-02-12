@@ -39,6 +39,6 @@ public class RabbitMQConfig {
         return BindingBuilder
                 .bind(queue())
                 .to(exchange())
-                .with("routingKey");
+                .with(routingKey);
     }
 }
