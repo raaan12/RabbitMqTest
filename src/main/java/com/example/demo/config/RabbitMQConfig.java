@@ -25,7 +25,7 @@ public class RabbitMQConfig {
     @Value("${rabbitmq.routing.key}")
     private String routingKey;
 
-    @Value("${rabbitmq.routing.json.key}")
+    @Value("${rabbitmq.routing.json.name}")
     private String routingJsonKey;
 
     // spring bean for rabbitmq queue
